@@ -68,6 +68,16 @@ You can also test using the provided sample input:
 
 ---
 
+## Project Structure
+
+ranked-voting-system
+│
+├── ranked_voting_system.cpp   # Main program
+├── sample_input.txt           # Example test input
+└── README.md                  # Project documentation
+
+---
+
 ## Author
 
 Jaanvi Vohra  
