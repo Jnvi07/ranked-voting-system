@@ -55,6 +55,19 @@ Overall complexity → **O(V * C² + C³)**
 
 ---
 
+## How to Run
+
+Compile the program:
+g++ ranked_voting_system.cpp -o voting
+
+Run the program:
+./voting
+
+You can also test using the provided sample input:
+./voting < sample_input.txt
+
+---
+
 ## Author
 
 Jaanvi Vohra  
