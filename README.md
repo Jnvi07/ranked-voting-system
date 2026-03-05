@@ -11,7 +11,6 @@ This project implements the Ranked Pairs voting algorithm to determine the winne
 
 The system records ranked votes, builds a pairwise preference matrix, sorts candidate pairs by strength of victory, and constructs a directed graph while preventing cycles to determine the final winner.
 
-## Demo
 
 ## Demo
 
@@ -40,7 +39,6 @@ Charlie Alice Bob
 ```
 
 ## Time Complexity
-## Time Complexity
 
 Let:
 
@@ -57,7 +55,7 @@ V = number of voters
 
 Overall complexity → **O(V * C² + C³)**
 
-# Technologies Used
+## Technologies Used
 >C++
 >Standard Template Library (STL)
 >vector
@@ -65,7 +63,7 @@ Overall complexity → **O(V * C² + C³)**
 >Graph Algorithms
 >Depth First Search (DFS)
 
-# How to Run
+## How to Run
 > Compile the program
      g++ ranked_voting_system.cpp -o voting
 >Run the program
